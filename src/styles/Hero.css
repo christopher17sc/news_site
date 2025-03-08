@@ -1,0 +1,19 @@
+.hero {
+    background: url("https://source.unsplash.com/1600x900/?news") center/cover;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  

@@ -1,0 +1,87 @@
+.navbar{
+    background-color: #080808;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: end; 
+    height: 12vh;
+    border-bottom: 1.5px solid #464646;
+    /* margin: 0 20px; */
+    padding: 0 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.navbar__logo h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 2.2rem;
+    color: #22ff00;
+    cursor: pointer;
+}
+
+.navbar__links{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.navbar__links p{
+    color: #22ff00;
+    margin: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    font-size: 0.9rem;
+}
+
+.navbar__links p:hover{
+    color: #22ff00;
+    transform: scale(1.08);
+    transition: 0.8s ease-in-out;
+}
+
+.navbar__links .active{
+    color: #08c734;
+    transform: scale(1.08); 
+    transition: 0.8s ease-in-out;
+
+}
+
+.navbar__search{
+    color: #22ff00;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   margin-bottom: 10px;
+
+}
+
+
+.navbar__search .search-input{
+    color: #22ff00;
+    width: 0px;
+    border: none;
+}
+
+.navbar__search .search-input:focus{
+    width: 200px;
+    outline: none;
+    border-bottom: 2px solid #22ff00;
+}
+
+.navbar__search .search-icon{
+    color: #22ff00;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.navbar__search:hover .search-input{
+    width: 200px;
+    transition: width 1s ease-in-out;
+    border-bottom: 1.5px solid #000;
+}

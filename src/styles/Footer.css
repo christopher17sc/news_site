@@ -1,0 +1,40 @@
+footer{
+    background-color:#000000;
+}
+
+.footer{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh 3vw;
+}
+
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.footer ul li{
+    color: rgb(255, 248, 248);
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer ul li:hover{
+    color: chartreuse;
+    transform: scaleX(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+footer hr{
+    color: aliceblue;
+}
+
+footer p{
+    color: rgb(47, 255, 0);
+    margin: 0;
+    text-align: center;
+    padding-bottom: 3vh;
+}
